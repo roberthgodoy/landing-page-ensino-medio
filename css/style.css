@@ -1,0 +1,170 @@
+@font-face {
+  font-family: 'Digital';
+  src: url('../font/digital/digital-7.ttf');
+}
+
+.img-banner .img-footer{
+	max-width: 100%;
+	height: auto;
+}
+
+.icon-circle {
+    color: #F27221;
+}
+
+.section-main {
+  background: rgba(255,255,255,1);
+  background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(224,224,224,1) 50%, rgba(255,255,255,1) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(50%, rgba(224,224,224,1)), color-stop(100%, rgba(255,255,255,1)));
+  background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(224,224,224,1) 50%, rgba(255,255,255,1) 100%);
+  background: -o-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(224,224,224,1) 50%, rgba(255,255,255,1) 100%);
+  background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(224,224,224,1) 50%, rgba(255,255,255,1) 100%);
+  background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(224,224,224,1) 50%, rgba(255,255,255,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff', GradientType=0 );
+}
+
+.section-main-container {
+  max-width:900px;
+  width: 100%;
+  margin: 0 auto;
+  font-family: 'Roboto', sans-serif;
+}
+
+.section-main-title {
+  color:#40174a;
+  font-weight: 900;
+  font-size: 30px;
+}
+
+.conection-share {
+  width: 250px;
+  margin-top: calc(50% - 125px);
+}
+
+.section-coaches {
+  padding: 20px;
+  font-size: 16px;
+}
+
+.pic-speaker {
+  width: 200px;
+  height: 200px;
+  background: no-repeat bottom center scroll;
+  background-image: url(../img/speaker-default.png);
+  background-size: auto auto;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  margin: 0 auto;
+  border-radius: 50%;
+}
+
+.pic-sponsor {
+  width: 220px;
+  height: 120px;
+  background: no-repeat bottom center scroll;
+  background-size: auto auto;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  margin: 0 auto;
+}
+
+.box-speaker,
+.box-sponsor {
+  padding: 20px;
+}
+
+.speaker-name {
+  font-weight: bold;
+  color: #40174a;
+  margin-top: 5px;
+}
+
+.speaker-occupation {
+  font-style:italic;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.speaker-theme {
+  font-style:italic;
+  font-size: 16px;
+  color: #F27221;
+}
+
+.section-support {
+  padding-bottom: 30px;
+}
+
+.section-support-title {
+  margin-top: 10px;
+  color:#40174a;
+  font-weight: 900;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+.sponsor-name {
+  font-weight: bold;
+  color: #40174a;
+}
+.sponsor-activity {
+  font-style: italic;
+  font-size: 14px;
+}
+
+.section-footer {
+	background: #40174A;
+}
+
+.img-footer-area {
+  max-width: 400px;
+  width: 100%;
+  margin:0 auto;
+  margin-top: 2em;
+  text-align: center;
+  padding: 10px 20px;
+  position: relative;
+}
+
+.clock-number {
+  font-family: 'Digital';
+  font-size: 7em;
+  color: #40174A;
+}
+
+.clock-label {
+  font-family: 'Digital';
+  font-size: 1.5em;
+  color: #F27221;
+}
+
+span {
+	font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.faltam {
+	font-size: 0.8em;
+	font-weight: 700;
+}
+
+/* SMART AND TABLET*/
+@media only screen and (max-width: 767px) {
+  .conection-share {
+    margin-top: 0px;
+  }
+  .clock-number {
+    font-family: 'Digital';
+    font-size: 3.5em;
+    color: #40174A;
+  }
+
+  .clock-label {
+    font-family: 'Digital';
+    font-size: 1.0em;
+    color: #F27221;
+  }
+}
